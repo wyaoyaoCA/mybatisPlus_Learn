@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+ ~
+ ~ @author [ your email ]
+ ~ @date 2019-04-16 09:07:36
+ ~ Created by decamincow .
+-->
+
+<mapper namespace="study.wyy.mybatisplus.dao.UserMapper">
+
+    <select id="selectMe" resultType="study.wyy.mybatisplus.pojo.User">
+        select * from user;
+    </select>
+</mapper>
