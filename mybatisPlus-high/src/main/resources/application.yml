@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: rootroot
+    url: jdbc:mysql://localhost:3306/study
+
+#配置日志级别
+logging:
+  level:
+    root: warn
+    study.wyy.mybatisplus.high.dao : trace
+
+## 配置
+mybatis-plus:
+  global-config:
+    db-config:
+      logic-delete-value: 1 # 配置表示逻辑删除的值
+      logic-not-delete-value: 0 # 配置表示逻辑未删除的值

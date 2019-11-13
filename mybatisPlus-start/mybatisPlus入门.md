@@ -93,7 +93,7 @@ public class MybatisPlusStudyApplication {
 ```
     
 - 测试类
-`study.wyy.mybatisplus.test.BaseMapperTest`
+`study.wyy.mybatisplus.high.test.BaseMapperTest`
 
 ```java
 @SpringBootTest
@@ -118,7 +118,7 @@ public class DemoTest {
 ![BaseMapper方法列表](noteImg/BaseMapper方法列表.jpg)
 
 
-**BaseMapper提供的方法`study.wyy.mybatisplus.test.BaseMapperTest`进行了相关测试，其中
+**BaseMapper提供的方法`study.wyy.mybatisplus.high.test.BaseMapperTest`进行了相关测试，其中
 分页相关的几个方法未进行测试**
 
 
@@ -130,7 +130,7 @@ QueryWrapper(LambdaQueryWrapper) 和 UpdateWrapper(LambdaUpdateWrapper) 的父�
 
 
 > 测试代码
-`study.wyy.mybatisplus.test.QueryWrapperTest`
+`study.wyy.mybatisplus.high.test.QueryWrapperTest`
 
 
 ## 4 定义sql
@@ -192,9 +192,9 @@ public class MybatisConfig {
 #### IPage接口
 通过了一些方法可以获取一些分页信息
 
-> 测试：`study.wyy.mybatisplus.test.PageTest`
+> 测试：`study.wyy.mybatisplus.high.test.PageTest`
 ```java
-package study.wyy.mybatisplus.test;
+package study.wyy.mybatisplus.high.test;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

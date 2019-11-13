@@ -1,4 +1,4 @@
-package study.wyy.mybatisplus.test;
+package study.wyy.mybatisplus.high.test;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
